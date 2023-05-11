@@ -44,11 +44,13 @@ body {
 .rightNav {
     width: 50%;
     text-align: right;
+    padding: 0px 10px;
 }
 
 .logo img {
     width: 50px;
-    border: 2px solid white;
+    height: 50px;
+    border: 2px solid grey;
     border-radius: 100px;
 }
 
