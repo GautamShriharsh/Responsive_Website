@@ -118,8 +118,18 @@ body {
     background: none;
     color: white;
     cursor: pointer;
-
-
-    
 }
 
+.btn-sm {
+    vertical-align: middle;
+    padding: 3px 10px; 
+    font-size: 12px;
+}
+
+.secRight {
+    display: flex;
+}
+
+.thumbnail img {
+    width: 100px;
+}
