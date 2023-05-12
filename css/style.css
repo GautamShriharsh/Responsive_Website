@@ -128,8 +128,24 @@ body {
 
 .secRight {
     display: flex;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 35px;
 }
 
 .thumbnail img {
-    width: 100px;
+    width: 250px;
+}
+
+.paras {
+    padding: 0px 98px;
+
+}
+
+.secLeft {
+    
 }
