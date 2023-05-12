@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -126,7 +128,7 @@ body {
     font-size: 12px;
 }
 
-.secRight {
+.section{
     display: flex;
     height: 500px;
     display: flex;
@@ -135,6 +137,7 @@ body {
     max-width: 80%;
     margin: auto;
     padding: 35px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .thumbnail img {
@@ -146,6 +149,10 @@ body {
 
 }
 
-.secLeft {
-    
+.section-left {
+   flex-direction: row-reverse;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
